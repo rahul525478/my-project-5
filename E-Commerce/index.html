@@ -88,8 +88,14 @@
                 </div>
             </div>
             <div class="carousel-controls">
-                <button class="carousel-btn prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
-                <button class="carousel-btn next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+                <button class="carousel-btn prev" onclick="changeSlide(-1)" title="Previous slide">
+                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                    <span class="sr-only">Previous slide</span>
+                </button>
+                <button class="carousel-btn next" onclick="changeSlide(1)" title="Next slide">
+                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                    <span class="sr-only">Next slide</span>
+                </button>
             </div>
         </div>
     </section>
@@ -153,7 +159,8 @@
         <div class="container">
             <h2 class="section-title">Featured Products</h2>
             <div class="filter-container">
-                <select id="sortSelect" class="filter-select">
+                <label for="sortSelect" class="sr-only">Sort products</label>
+                <select id="sortSelect" class="filter-select" aria-label="Sort products">
                     <option value="default">Sort by</option>
                     <option value="price-low">Price: Low to High</option>
                     <option value="price-high">Price: High to Low</option>
@@ -170,8 +177,9 @@
     <div class="cart-sidebar" id="cartSidebar">
         <div class="cart-header">
             <h3>Shopping Cart</h3>
-            <button class="close-cart" onclick="closeCart()">
-                <i class="fas fa-times"></i>
+            <button class="close-cart" onclick="closeCart()" title="Close cart" aria-label="Close cart">
+                <i class="fas fa-times" aria-hidden="true"></i>
+                <span class="sr-only">Close cart</span>
             </button>
         </div>
         <div class="cart-items" id="cartItems">
@@ -191,8 +199,9 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h3>Checkout</h3>
-                <button class="close-modal" onclick="closeCheckout()">
-                    <i class="fas fa-times"></i>
+                <button class="close-modal" onclick="closeCheckout()" title="Close checkout" aria-label="Close checkout">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                    <span class="sr-only">Close checkout</span>
                 </button>
             </div>
             <div class="checkout-form">
@@ -259,8 +268,9 @@
     <div class="toast-container" id="toastContainer"></div>
 
     <!-- Scroll to Top -->
-    <button class="scroll-to-top" id="scrollToTop">
-        <i class="fas fa-arrow-up"></i>
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top" title="Scroll to top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        <span class="sr-only">Scroll to top</span>
     </button>
 
     <!-- Overlay -->
