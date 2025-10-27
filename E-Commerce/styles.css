@@ -89,6 +89,7 @@ body::before {
     right: 20px;
     z-index: 1000; /* Adjusted z-index */
     background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     border-radius: 50%;
@@ -118,6 +119,7 @@ body::before {
     top: 0;
     width: 100%;
     background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--glass-border);
     z-index: 100; /* Adjusted z-index */
@@ -430,6 +432,7 @@ body::before {
     left: 0;
     right: 0;
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px);
     padding: 1.5rem;
     color: white;
@@ -447,6 +450,7 @@ body::before {
 
 .carousel-btn {
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     border-radius: 50%;
@@ -469,6 +473,7 @@ body::before {
 .flash-sale {
     padding: 4rem 0;
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px);
     margin: 2rem 0;
 }
@@ -482,6 +487,7 @@ body::before {
 
 .countdown-item {
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     border-radius: 15px;
@@ -527,6 +533,7 @@ body::before {
 
 .category-card {
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     border-radius: 20px;
@@ -586,6 +593,7 @@ body::before {
 
 .filter-select {
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     border-radius: 25px;
@@ -608,6 +616,7 @@ body::before {
 
 .product-card {
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     border-radius: 20px;
@@ -754,6 +763,7 @@ body::before {
     max-width: 90vw; /* Responsive width */
     height: 100vh;
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(20px);
     border-left: 1px solid var(--glass-border);
     z-index: 1001; /* Increased z-index */
@@ -920,6 +930,7 @@ body::before {
 .modal-content,
 .confirmation-content {
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);
     border-radius: 20px;
@@ -1035,6 +1046,7 @@ select:focus {
 
 .toast {
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     border-radius: 10px;
@@ -1071,6 +1083,7 @@ select:focus {
     bottom: 20px;
     right: 20px;
     background: var(--glass-bg);
+    -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
     border-radius: 50%;
